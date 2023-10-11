@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+            }
+    
+    .nav{
+    width: 1200px;
+    height: 450px;
+    background-color:rgba(0, 0, 0, 0.2);
+    margin:  0 auto;
+    box-sizing: border-box;
+    position: relative;
+    }
+    
+    .left{
+    width: 300px;
+    height: 450px;
+    display: inline-block;
+    }
+    
+    
+    ul{
+        width: 300px;
+        height: 450px;
+    }
+    
+    h3{
+        text-align: center;
+        color: tomato;
+    }
+    ul li{
+    list-style: none;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    }
+    
+    .middle{
+    width: 700px;
+    height: 400px;
+    background-color: yellow;
+    display:inline-block;
+    }
+    
+    .middle img{
+    width: 100%;
+    height: 100;
+    
+    }
+    .right{
+    width:190px;
+    height: 450px;
+    background-color:mintcream;
+    display: inline-block;
+    position: absolute;
+    }
+    
+    .right img{
+        width:100% ;
+        height: 200px;
+    }
+    .content{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .8);
+    }
+    p{
+        text-align: center;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    color: orangered;
+    line-height: 20px;
+    }
+    
+    
+    .content .items{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 1px 5px 5px 2px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    margin-left: 35px;
+    }
+    
+    .content .items img{
+        width: 250px;
+        height: 350px;
+        transition: all 2s;
+    }
+    
+    .content .items .cover{
+     width: 250px;
+    height: 350px;
+    position: absolute;
+    top:0;
+    left: 0;
+    
+    }
+    
+    .items:hover div{
+        background-color: rgba(0, 0, 0, 0.2);
+    
+    }
+    
+    .items:hover img{
+        transform: scale(1.2);
+    }
+    
+    .footer{
+    width: 1200px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    }
+    
+    .footer p{
+    width: 1200px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 80px;
+    color: black;
+    }
